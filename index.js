@@ -54,3 +54,11 @@ const displayError = error=>{
     const errorDiv= document.getElementById('error-message');
     errorDiv.innerText = error;
 }
+
+const  homeIcon = ()=>{
+    const lyricDiv = document.getElementById('song-lyric');
+    lyricDiv.innerText = "";
+
+    const songContainer = document.getElementById('songContainer');
+    songContainer.innerHTML = "";
+}
